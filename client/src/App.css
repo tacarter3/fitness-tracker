@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mb-3 {
+  width: 30em;
+}
+.form {
+  margin-left: 5em;
+  margin-top: 2em;
+}
+
+.Workout {
+  margin-left: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.workout-form {
+  width: 50em;
+}
+
+/* .workout-column1 {
+  width: 5em
+} */
+
+.picker {
+  max-width: 3em;
+  padding-top: 3em;
+}
+
+.workout-header {
+  text-align: center;
+}
+
+.workout-column1 {
+  width: 2px;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+} */
+
+.counter {
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+
+}
+
+.box .text {
+  font-size: 20px;
+  width: 50px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.box .btn {
+  height: 100%;
+  width: 100px; 
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
