@@ -46,13 +46,17 @@
 }
 
 .Workout {
-  margin-left: 5em;
+  /* margin-left: 5px; */
   display: flex;
   flex-direction: column;
+  align-items: center;
+   
 }
 
 .workout-form {
+  margin-top: 1.5em;
   width: 50em;
+  margin-left: 10em;
 }
 
 /* .workout-column1 {
@@ -66,21 +70,16 @@
 
 .workout-header {
   text-align: center;
+  margin-top: 2em;
 }
 
 .workout-column1 {
-  width: 2px;
+  width: 100px;
 }
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-} */
 
 .counter {
   height: 2em;
+  width: 120px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -91,7 +90,8 @@
   width: 120px;
   height: 40px;
   background-color: rgba(255,255,255,0.6);
-  border-radius: 50px;
+  border: black solid 1px;
+  /* border-radius: 15px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,4 +121,139 @@
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.form-box {
+  align-items: center;
+}
+
+.date-col {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.exercise-col {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+.duration-col {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+}
+
+.counter {
+  width: 3px;
+  padding-left: 4px;
+}
+
+.main {
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px;
+  height: 100%;
+
+}
+
+.water-img {
+  margin: 20px;
+}
+
+.water-header {
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.activity-banner {
+  height: 10em;
+  padding: 2.5em;
+}
+
+.activity-title {
+  /* padding-top: 40px; */
+  text-align: center;
+  border: 1px solid black;
+  width: 10em;
+  margin: auto;
+}
+
+.activity-report {
+  padding-top: 5em;
+  margin-left: 20em;
+}
+
+
+.water-intake {
+  margin-left: 6em;
+  margin-top: 3em;
+  width: 80%;
+}
+
+.water-content {
+  margin-left: 6em;
+  margin-top: 5em;
+  width: 80%;
+}
+
+.workout-banner {
+  /* margin: 1px; */
+  padding: 0px;
+
+}
+
+.workout-body {
+  margin-top: 2em;
+  /* margin-left: 1px;  */
+  margin-right: 1px
+}
+
+.calorie-report {
+  margin-top: 3em;
+  margin-left: 20em;
+}
+
+.calorie-title {
+  text-align: center;
+  height: 1.5em;
+  margin: auto;
+  padding: 4px;
+  background-color: black;
+  color: white;
+  /* border: 1px solid black; */
+  width: 10em;
+}
+
+.calorie-banner {
+  height: 10em;
+  border: 5px  gray;
+  background-color: lightblue;
+  border-style: outset;
+  padding: 3em;
+}
+
+.calorie-form {
+  /* margin-top: 1.5em; */
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 50em;
+  margin-left: 10em;
+}
+
+.about {
+  width: 50em;
+  margin: auto;
+  
+}
+
+.about h1 {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.about-card {
+  margin-top: 2em;
 }

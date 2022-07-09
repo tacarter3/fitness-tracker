@@ -5,6 +5,7 @@ const UserProfile = () => {
         <div>
             <h1>User Fitness Profile</h1>
         </div>
+
     )
 }
 

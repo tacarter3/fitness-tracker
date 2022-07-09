@@ -6,7 +6,7 @@ import "../App.css"
 
 const SignIn = () => {
     return (
-        <div className="form">
+        <div className="sign-in">
             <h1>Welcome to Fitness Tracker</h1>
             <h2>Please Sign In</h2>
 
@@ -31,6 +31,10 @@ const SignIn = () => {
                 Submit
             </Button>
             </Form>
+            <div>
+            <div className="bicycle" style={{ backgroundImage: "url(/images/stationery-bike.jpg", height: "65vh", width: "80%", backgroundSize: "cover", backgroundPosition: "center", marginLeft: "5em", marginTop: "1em" }}>
+            </div>
+        </div>
         </div>        
   );
 
