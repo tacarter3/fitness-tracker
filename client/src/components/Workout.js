@@ -9,10 +9,11 @@ import { Card, ListGroup } from "react-bootstrap"
 const Workout = () => {
       
     return (
-    <main className="main"> 
     <div className='Workout'>
-        <div className="workout-banner" style={{ backgroundColor: "#F5F5F5", width: "100%", border: "1px black solid" }}>
-            <h1 className='workout-header'>Add a Workout</h1>
+        <div className="workout-banner" style={{ backgroundImage: "url(/images/brick-workout.jpg", backgroundSize: "cover", width: "100%" }}>
+            <h1 className='workout-title'>Add a Workout</h1>
+        </div>
+        <div className="workout-report" style={{ backgroundImage: "url(/images/exercise.jpg)", height: "60em", width: "100%", backgroundSize: "cover", backgroundPosition: "center" }}>
                 <div className="workout-form">
                     <Form className="form-box">
                         <Row>
@@ -38,7 +39,7 @@ const Workout = () => {
                                 <option value="3">Running</option>
                                 </Form.Select> 
                             </Col>
-                            <Col xs={2} className="counter" style={{ backgroundColor: "lightgray",marginLeft: "3em"  }}>
+                            <Col xs={2} className="counter" style={{ backgroundColor: "#11ffee00", marginLeft: "3em"  }}>
                             <div className="box">
                                 <button className="btn increment">+</button>
                                     <div>
@@ -51,20 +52,20 @@ const Workout = () => {
                             </Col>
                         </Row>
                     </Form>
+                    <Card className="workout-card" style={{ width: "30rem", marginTop: "3em", marginLeft: "12em" }}>
+                        <Card.Header style={{ backgroundImage: "url(/images/brick-workout.jpg)", backgroundSize: "cover", color: "white", fontSize: "20px", fontStyle: "italic", fontWeight: "bold"}}>New Workout Added</Card.Header>
+                        <ListGroup variant="flush">
+                            <ListGroup.Item>Item 1</ListGroup.Item>
+                            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                        </ListGroup>
+                    </Card>
                 </div>
         </div>
-    </div>
-        <div className="workout-body" style={{ backgroundImage: "url(/images/exercise.jpg)", height: "60em", width: "100%", backgroundSize: "cover", backgroundPosition: "center" }}>
-        <Card className="workout-report" style={{ width: "30rem", marginTop: "2em", marginLeft: "20em" }}>
-                <Card.Header style={{ backgroundColor: "#8F8F8F", color: "white", fontSize: "20px", fontStyle: "italic", fontWeight: "bold"}}>New Workout Added</Card.Header>
-                <ListGroup variant="flush">
-                    <ListGroup.Item>Item 1</ListGroup.Item>
-                    <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                    <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-                </ListGroup>
-            </Card>
+        <div className="workout-footer" style={{ backgroundImage: "url(/images/brick-workout.jpg", backgroundSize: "cover", height: "9em",  width: "100%" }}>
+
         </div>
- </main>   
+    </div> 
  )
 }
 
